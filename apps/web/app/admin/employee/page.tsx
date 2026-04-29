@@ -62,7 +62,7 @@ export default function DialogDemo() {
         name: z.string().min(3),
         mobile: z.string().min(3),
         email: z.string().min(3),
-        profile: z.instanceof(FileList).optional(),
+        profile: z.any(),
         department: z.string().min(3),
         jobRole: z.string().min(3),
         doj: z.coerce.date(),
