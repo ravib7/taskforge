@@ -1,0 +1,3 @@
+-- SELECT datname FROM pg_database;
+-- CREATE DATABASE taskforge;
+-- SELECT * from communication;

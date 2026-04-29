@@ -1,0 +1,2 @@
+when take other user folder run tjis command in api folder terminal
+npx drizzle-kit push
