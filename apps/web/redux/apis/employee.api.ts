@@ -4,7 +4,7 @@ import { CREATE_MESSAGE_REQUEST, CREATE_MESSAGE_RESPONSE, GET_MESSAGE_REQUEST, G
 
 export const employeeApi = createApi({
     reducerPath: "employeeApi",
-    baseQuery: fetchBaseQuery({ baseUrl: `${APP_URL}/api/employee`, credentials: "include" }),
+    baseQuery: fetchBaseQuery({ baseUrl: `/api/employee`, credentials: "include" }),
     tagTypes: ["employee"],
     endpoints: (builder) => {
         return {
